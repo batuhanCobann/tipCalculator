@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 87.864px;
+    background: #C5E4E7;
+}
+
+.text{
+    margin-top: 163px;
+}
+
+
+/* ANA KAPSAYICI BAŞLANGICI */
+
+.conteiner{
+    display: flex;
+    margin-bottom: 239px;
+    width: 920px;
+    height: 481px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+    
+}
+
+/* ANA KAPSAYICI BİTİSİ */
+
+
+
+/* ILK INPUT ALANI BASLANGICI*/
+
+.bill{
+    margin: 45px 48px;
+    display: flex;
+    width: 379px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+    p{
+        color: #5E7A7D;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .bill-img-input{
+        border-radius: 5px;
+        align-items: center;
+        background: #F3F9FA;
+        display: flex;
+        width: 379px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+    input{
+        background-color: #F3F9FA;
+        border: none;
+        width: 335px;
+        height: 48px;
+        color: #00474B;
+        text-align: right;
+        font-size: 24px;
+        font-weight: 700;
+        border-radius: 5PX;
+    }
+    svg{
+        margin: 17px 16px;
+    }
+}
+/* ILK INPUT ALANI BİTİSİ*/
+
+
+/*YUZDE HESAPLAYICI BASLAGINCI*/
+.selecttip{
+    width: 379px;
+    height: 152px;
+    margin: 40px 48px ;
+    p{
+        color: #5E7A7D;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 16px;
+
+    }
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    .btn{
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        width: 115px;
+        height: 48px;
+        border-radius: 5px;
+        background: #00474B;
+        cursor: pointer;
+
+    }
+    .btn3{
+        color: #00474B;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        width: 115px;
+        height: 48px;
+        border-radius: 5px;
+        background: #26C2AE;
+        border: none;
+        cursor: pointer;
+
+    }
+    input{
+        color: #547878;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        width: 115px;
+        height: 48px;
+        border-radius: 5px;
+        background: #F3F9FA;
+        border: none;
+
+    }
+    
+}
+/*YUZDE HESAPLAYICI BITISI*/
+
+
+
+/*KISI SAYISI HESAPLAYICI BASLANGICI*/
+.number-people{
+    margin: 40px 48px;
+    display: flex;
+    width: 379px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;    
+    
+    p{
+        color: #5E7A7D;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .img-input{
+        border-radius: 5px;
+        align-items: center;
+        background: #F3F9FA;
+        display: flex;
+        width: 379px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+    input{
+        background-color: #F3F9FA;
+        border: none;
+        width: 335px;
+        height: 48px;
+        color: #00474B;
+        text-align: right;
+        font-size: 24px;
+        font-weight: 700;
+        border-radius: 5PX;
+    }
+    svg{
+        margin: 17px 16px;
+    }
+}
+/*KISI SAYISI HESAPLAYICI BITISI*/
+
+
+
+.output{
+    margin: 32px 32px 32px auto;
+    width: 413px;
+    height: 417px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #00474B;
+
+}
